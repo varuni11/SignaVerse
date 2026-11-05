@@ -1,0 +1,7 @@
+# Offline ISL motion pipeline (Python 3.10-3.12). Use a virtualenv.
+# mediapipe 0.10.14 is pinned on purpose: its wheel bundles the pose + hand .tflite models
+# (newer releases removed mp.solutions and need a separate model download).
+mediapipe==0.10.14
+opencv-python-headless
+numpy<2
+scipy
